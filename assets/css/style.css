@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Christmas';
+    src: url('/assets/font/merry_christmas/MerryChristmasFlake.ttf');
+}
+
+body {
+    background-image: url('/assets/images/bg-image.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    padding: 30px;
+    position: relative;
+}
+
+body .title 
+{
+    font-family: 'Christmas';
+    font-size: 150px;
+    color: #bc4749; 
+}
+
+body .ah-ouais {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+body #cheh {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 53%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+body #dog {
+    position: absolute;
+    top: 75%;
+    right: 15%;
+}
+
+body .santa {
+    position: absolute;
+    margin-top: 20px;
+    top: 0;
+}
+
+body .santa .gif {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body #tree {
+    position: absolute;
+    top: 45%;
+}
